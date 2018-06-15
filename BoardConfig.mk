@@ -18,9 +18,6 @@ include device/samsung/universal7880-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/a5y17lte
 
-# Include path
-TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
-
 # Kernel config
 TARGET_KERNEL_CONFIG := lineage-universal7880_defconfig
 
