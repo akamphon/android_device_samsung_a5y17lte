@@ -18,8 +18,8 @@ include device/samsung/universal7880-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/a5y17lte
 
-# Extracted with libbootimg
-BOARD_KERNEL_PREBUILT_DT := $(LOCAL_PATH)/dtb.img
+# Include path
+TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
 # Kernel config
 TARGET_KERNEL_CONFIG := lineage-a5y17lte_defconfig
